@@ -1,0 +1,12 @@
+C:\Users\10491\Desktop\student\student\obj\Debug\student.csprojResolveAssemblyReference.cache
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Form1.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Form2.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Form3.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Form4.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Form5.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Form6.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Properties.Resources.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.csproj.GenerateResource.cache
+C:\Users\10491\Desktop\student\student\obj\Debug\student.csproj.CoreCompileInputs.cache
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Formlogin.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.FormMain.resources

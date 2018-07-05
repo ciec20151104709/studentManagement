@@ -1,6 +1,6 @@
 ﻿namespace student
 {
-    partial class Form1
+    partial class Formlogin
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -68,7 +68,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(73, 322);
+            this.button1.Location = new System.Drawing.Point(73, 295);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -77,7 +77,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(73, 383);
+            this.button2.Location = new System.Drawing.Point(73, 415);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
@@ -98,7 +98,7 @@
             this.textBox2.Size = new System.Drawing.Size(190, 25);
             this.textBox2.TabIndex = 6;
             // 
-            // Form1
+            // Formlogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -110,7 +110,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "Formlogin";
             this.Text = "学生登陆";
             this.ResumeLayout(false);
             this.PerformLayout();

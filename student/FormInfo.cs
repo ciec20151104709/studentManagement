@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace student
 {
-    public partial class Form5 : Form
+    public partial class Form5 : System.Windows.Forms.Form
     {
         public Form5()
         {
             InitializeComponent();
+
         }
         string strcon = "Server=TC-PC;Integrated Security=true;DataBase=学生";
         SqlConnection con;
@@ -57,8 +58,5 @@ namespace student
             da.Update(ds);
             dataGridView1.DataSource = ds.Tables[0];
         }
-    }
-}
-
     }
 }

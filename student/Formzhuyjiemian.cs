@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace student
 {
-    public partial class Form2 : Form
+    public partial class Form2 : System.Windows.Forms.Form
     {
         public Form2()
         {
@@ -76,11 +76,8 @@ namespace student
         {
             this.Close();
         }
-
-
         private void Form2_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

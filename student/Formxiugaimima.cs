@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace student
 {
-    public partial class Form6 : Form
+    public partial class Formxiugaimima : Form
     {
-        public Form6()
+        public Formxiugaimima()
         {
             InitializeComponent();
         }

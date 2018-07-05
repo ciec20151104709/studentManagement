@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace student
 {
-    public partial class Form1 : Form
+    public partial class Formlogin : System.Windows.Forms.Form
     {
-        public Form1()
+        public Formlogin()
         {
             InitializeComponent();
+        }
             private void button2_Click(object sender, EventArgs e)
             {
                 Application.Exit();
@@ -29,10 +32,10 @@ namespace student
         {
             if (textBox1.Text == "" || textBox2.Text == "")
             { MessageBox.Show("提示：请输入用户名和密码！", "警告"); }
-            SqlConnection conn = new SqlConnection("Server=TC-PC;Integrated Security=true;DataBase=学生");
+            MySqlConnection conn = new MySqlConnection("server=localhost;user = root;password=;Integrated Security=true;DataBase=student");
             conn.Open();
-            SqlCommand cmd = new SqlCommand("select * from admin where 用户名='" + textBox1.Text.Trim() + "' and 密码='" + textBox2.Text.Trim() + "'", conn);
-            SqlDataReader sdr = cmd.ExecuteReader();
+            MySqlCommand cmd = new MySqlCommand("select * from admin where 用户名='" + textBox1.Text.Trim() + "' and 密码='" + textBox2.Text.Trim() + "'", conn);
+            MySqlDataReader sdr = cmd.ExecuteReader();
             sdr.Read();
             if (sdr.HasRows)
             {
@@ -49,7 +52,8 @@ namespace student
                 {
                     ErrorTimes = 0;
                     conn.Close();
-
                 }
             }
+        }
+    }
 }

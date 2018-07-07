@@ -59,4 +59,24 @@ namespace student
             }
             mycon.Close();
             mycon1.Close();
+            private void button1_Click(object sender, EventArgs e)
+            {
+                string constr = "server=111.231.69.100;port=3306;uid=linge;password=123456;Database=linge";
+                string cmdstr = string.Format("insert into SC values('{0}','{1}',null)", this.Sno, textBox1.Text);
+                MySqlConnection mycon = new MySqlConnection(constr);
+                mycon.Open();
+                try
+                {
+                    MySqlCommand cmd = new MySqlCommand(cmdstr, mycon);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("选课成功");
+                    mycon.Close();
+                }
+                catch
+                {
+                    MessageBox.Show("选课失败！");
+                }
+            }
         }
+    }
+}

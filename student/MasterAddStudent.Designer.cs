@@ -1,6 +1,6 @@
 ﻿namespace student
 {
-    partial class Addstudent
+    partial class MasterAddStudent
     {
         /// <summary>
         /// Required designer variable.

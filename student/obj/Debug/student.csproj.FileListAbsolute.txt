@@ -10,3 +10,6 @@ C:\Users\10491\Desktop\student\student\obj\Debug\student.csproj.GenerateResource
 C:\Users\10491\Desktop\student\student\obj\Debug\student.csproj.CoreCompileInputs.cache
 C:\Users\10491\Desktop\student\student\obj\Debug\student.Formlogin.resources
 C:\Users\10491\Desktop\student\student\obj\Debug\student.FormMain.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.Addstudent.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.DelectStudent.resources
+C:\Users\10491\Desktop\student\student\obj\Debug\student.MainForm.resources

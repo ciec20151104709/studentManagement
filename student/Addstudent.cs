@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace student
 {
-    public partial class FormMain : System.Windows.Forms.Form
+    public partial class Addstudent : Form
     {
-        public FormMain()
+        public Addstudent()
         {
             InitializeComponent();
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
